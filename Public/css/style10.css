@@ -1,0 +1,331 @@
+html,body{
+  margin:0px;
+  top:0px;
+  background-color:#181111;
+  font-family: SeoulNamsan CEB;
+   
+}
+
+
+.ovcontainer
+{
+  position:relative;
+  width:100%;
+  background-color:#181111;
+  margin:0%;
+}
+.header{
+  /* Rectangle 1 */
+  position: relative;
+  width: 100%;
+  height: 93px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(26, 14, 14, 0.945);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family:SeoulNamsan CEB;
+  margin-bottom: 1px;
+}
+.logo
+  {
+  position: absolute;
+  width: 140px;
+  height: 93px;
+  left: -9px;
+  top: -3px;
+  filter: drop-shadow(0px 4px 4px rgba(42, 102, 14, 0.5));
+  }
+.header_h1{
+    color: wheat;
+  position:absolute;
+  width: 206px;
+  height: 48px;
+  left:112px;
+  top: 47px;
+  top: -3px;
+
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color:  wheat;
+
+
+}
+h1{
+ color: white;
+}
+.header_h2
+{
+  /* margin-top: -5px; */
+  position: absolute;
+  margin-left: 50%;
+  margin-right:auto;
+  top: 27px;
+
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight:normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: bottom;
+  
+
+}
+.topnav
+{
+overflow: hidden;
+}
+.topnav a
+{
+  float: left;
+  color: #FCF3F3;
+text-align: center;
+vertical-align: text-bottom;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: rgba(59, 59, 59, 0.397);
+  color: rgb(218, 214, 214);
+  text-rendering: inherit;
+  
+}
+
+.img_header{
+  position: relative;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 835px;
+  height: 114px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+  
+  .afform {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      width: 55%;
+    font-family: Arial;
+    font-size: 15px;
+  
+}
+.container {
+  position: relative;
+  border-radius: 5px;
+  margin-left: 20%;
+  width:55%;
+  font-size: 15px;
+  background-color: #e2dfdf;
+  padding: 20px;
+  padding-top: 35px;
+  /* size: 50%; */
+  
+}
+.container pre{
+  font-family: SeoulNamsan CEB;
+}
+label
+{ width: 150px;
+  margin-left: 3%;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+  font-weight: bold;
+
+}
+
+
+ input[type=text], select {
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  padding: 12px 20px;
+  /* background-color: aqua; */
+  margin: 2px 0;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  padding: 12px 20px;
+  /* background-color: aqua; */
+  margin: 2px 0;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#Inspiration, select {
+  /* width: 265px; */
+  display: block;
+  /* box-shadow:0 0 10px 0 black ; */
+  height:120px;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 2px 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#a{
+  width: 505px;
+}
+
+input[type=email], select {
+  width: 505px;
+  /* background-color: brown; */
+  height: 40px;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 2px 0;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ input[type=payment], select {
+    width: 505px;
+    height: 40px;
+    /* background-color: darkblue; */
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=tel], select {
+    width: 505px;
+    height: 40px;
+    /* background-color: darkblue; */
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ /* input[type=pay], select {
+    width: 15%;
+    height: 20%;
+    background-color: darkmagenta;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */
+  
+
+  input[type=submit],#submitbtn {
+    width: 100px;
+    background-color: #0d1a0d;
+    color: white;
+    padding: 10px 10px;
+    /* margin: 4px 0; */
+    margin-top: -10%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left:40%
+  }
+
+ input[type=submit]:hover {
+  background-color: #3e413f;
+}
+
+
+/* .inline-block{
+  float: left;
+} */
+
+
+
+#firstname, #lastname,#mail,#Inspiration
+{
+  display:inline-block;
+}
+
+
+
+#Inspiration, #mail
+{
+  width:505px;
+}
+
+#payment,#mode{
+  display: inline-block;
+  font-weight: bold;
+  width: 505px;
+}
+#pay{
+  display: inline-block;
+  width: 100px;
+}
+
+#p{
+  display: inline-block;
+}
+
+
+h3{
+  font-style: italic;
+}
+h4{
+  padding-left: 0px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+#mode{
+  width:150px;
+  height: 50px;   
+ }
+ .labels{
+   display: inline-block;
+   height: 10px;
+ }
+
+ h4{
+   margin-left:0.7%;
+ }
+ #Transaction,#p,#Account_no,#card_no,#Expires,#a,#b,#c,#d,#CVV,#pil,#pii{
+    display: none;
+}
+#pi{
+    display: inline-block;
+}
+#upii{
+  display: none;
+}

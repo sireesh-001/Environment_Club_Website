@@ -1,0 +1,535 @@
+html,body{
+    /* background-color:#181111; */
+    margin:0;
+    padding: 0;
+    height:100%;
+    /* width:100%; */
+    top:0;
+    background-color: #352F2F;
+    font-family: SeoulNamsan CEB;
+    /* overflow-x:auto;
+    overflow-y:auto; */
+        
+    }
+    .ovcontainer
+    {
+        position: relative;
+        background-color:#181111;
+        margin:0;
+        padding:0%;
+        top:0;
+        /* width:100%; */
+        
+    }
+    
+    .header{
+        /* Rectangle 1 */
+        position: fixed;
+        width: 100%;
+        height: 93px;
+        margin:0;
+        /* background: rgba(26, 14, 14, 0.945); */
+        font-family:SeoulNamsan CEB;
+        cursor: default;
+        z-index: 3;
+        
+        
+    }
+    .sticky {
+    
+    position: fixed;
+    background: rgba(17, 10, 10, 0.945);
+        z-index: 3;
+    top: 0;
+    left:0;
+    /* width: 100%; */
+    
+    }
+    .logo
+        {
+        position: absolute;
+        width: 140px;
+        height: 93px;
+        left: -9px;
+        top: -3px;
+        filter: drop-shadow(0px 4px 4px rgba(42, 102, 14, 0.5));
+        cursor:default;
+        z-index: inherit;
+        }
+    .header_h1{
+    
+        position:absolute;
+        width: 206px;
+        height: 48px;
+        left:112px;
+        top: 47px;
+        top: -3px;
+        cursor:default;
+        font-family: SeoulNamsan CEB;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+    
+        color: #FCF3F3;
+        z-index: inherit;
+    
+    
+    }
+    .header_h2
+    {
+        /* margin-top: -5px; */
+        position: absolute;
+        margin-left: 50%;
+        margin-right:auto;
+        top: 27px;
+    
+        font-family: SeoulNamsan CEB;
+        font-style: normal;
+        font-weight:normal;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        vertical-align: bottom;
+        z-index: inherit;
+        
+    
+    }
+    .topnav
+    {
+    overflow: hidden;
+    }
+    .topnav a
+    {
+        float: left;
+        color: #FCF3F3;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    }
+    
+    .topnav a:hover {
+        background-color: rgba(59, 59, 59, 0.397);
+        color: rgb(218, 214, 214);
+        text-rendering: inherit;
+        
+    }
+    .img_header
+    {
+        position: relative;
+        margin-top: 0;
+        background-color:black;
+        z-index: 0;
+        width:100%;
+        height:700px;
+        margin-bottom: 5%;
+        background-image: url("../images/homeded.jpg");
+        background-repeat: no-repeat;
+        display: block;
+        background-size: cover;
+        background-position: center;
+        filter: blur(3px) brightness(75%) ;
+        -webkit-filter: blur(0.5px);
+         /* filter: opacity(60%); */
+        
+    
+    }
+    .img_header::after{
+       
+            content: '';
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            box-shadow: inset 0px 0px 200px black;
+          
+    }
+    
+    .container{
+    
+        padding-right: 15px;
+        position:absolute;
+        margin-top: 15%;
+        height:400px;
+        width:1100px;
+        /* background-color: turquoise; */
+        padding-left: 15px;
+        margin-right: auto;
+        /* margin-top: 15%; */
+        margin-left: 15%;
+        /* margin-top: 20%; */
+        /* display: inline-flex; */
+    
+    }
+    
+    
+    .circle
+    {
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 0%;
+        z-index: 1;
+        /* background-color:rgb(56, 176, 0 ); */
+        /* background-image: linear-gradient(rgb(33, 37, 41)); */
+        background: -webkit-linear-gradient( rgb(80, 74, 73,0.85) , rgb(27, 24, 24,0.85) , rgb(0, 0, 0) );
+        display: inline-block;
+        height: 350px;
+        width: 350px;
+        /* filter: opacity(50%); */
+        border-radius: 50%;
+    }
+    .circle2{
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 3%;
+        z-index: 1;
+        padding: 0;
+        background-color:rgb(36, 37, 35,0.6);
+        /* background-image: linear-gradient(rgb(112, 224, 0,0.2),rgb(),#008000); */
+        height: 330px;
+        width: 330px;
+        text-align: center;
+        box-sizing: border-box;
+        /* filter: opacity(95%); */
+        border-radius: 50%;
+    }
+     h3,.h3 {
+      
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .date{
+        position: relative;
+        margin-top:0px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 8.0rem;
+        line-height: 8.1rem;
+        /* line-height: 16rem; */
+        color: #ffef08;
+        
+    }
+    .b{
+        font-weight: 700;
+    }
+    
+    .date span {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 42px;
+        line-height: 45px;
+        font-weight: 700;
+        display: block;
+        opacity: .8;
+    }
+    #lgx-countdown {
+        margin-top: -10px;
+    }
+    #lgx-countdown .lgx-days {
+        color: #fff;
+    }
+    #lgx-countdown span {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        /* font-size: 42px;
+        line-height: 45px; */
+        font-size: 2.2rem;
+        line-height: 4.300000000000001rem;
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 1.5rem;
+        position: relative;
+        bottom: 0px;}
+    
+        #lgx-countdown i {
+            font-family: 'Poppins', sans-serif;
+           
+            font-size: 1.0rem;
+            line-height: 1.0999999999999996rem;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 200;
+            letter-spacing: normal;
+            transform: rotate(0deg);
+            font-style: normal;
+            display: inline-block;
+            position: absolute;
+            bottom: -15px;
+            right: 0;
+            left: 0;
+            opacity: .7;
+        }
+        #lgx-countdown .lgx-hr, .lgx-min , .lgx-sec {
+            color: #fff;
+        }
+    
+        .lgx-banner-info {
+            color: #fff;
+            position: relative;;
+        }
+    
+        .lgx-banner-info .subtitle {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            color: white;
+            margin: 0;
+            /* line-height: 7.2rem; */
+        }
+    
+        .title {
+            margin: 0;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 2.6rem;
+        }
+    /* #timer div {
+        background-color: #000000;
+        color: #ffffff;
+        width: 100px;
+        height: 105px;
+        border-radius: 5px;
+        font-size: 35px;
+        font-weight: 700;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+     #timer div span {
+        display: block;
+        margin-top: -2px;
+        font-size: 15px;
+        font-weight: 500;
+     } */
+    
+     .banner{
+         position: absolute;
+         float: left;
+         margin-left: 40%;
+         z-index: 2;
+         /* background-color: violet; */
+         width: 400px;
+         height: 400px;
+         padding: 5px;
+         color: white;
+         font-family: sans-serif;
+         /* background-color: rgba(255, 255, 255, .15);    */
+         background-color: rgba(60, 61, 60, 0.15);
+         backdrop-filter: blur(0.5px);
+     }
+    
+     .banhead{
+         color: white;
+         font-weight: 700;
+         font-size: 62px;
+         font-family: 'Poppins', sans-serif;
+     }
+     .banhead .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased}
+    
+        .bandate, .location{
+            /* font-weight: 700; */
+         font-size: 25px;
+         font-family: 'Poppins', sans-serif;
+        }
+        
+    .btn{
+        background-color:#ffef08 ;
+        width:200px;
+        height:40px;
+        z-index: 2;
+        text-align: center;
+        padding:5px;
+        border-radius: 5px;
+    }
+    .btn button{
+    font-size: 20px;
+    background-color:#ffef08 ;
+    border: none;
+    color:black;
+    margin-top: 5px;;
+    font-weight: bold;
+    
+    }
+    
+    .heading{
+        position: relative;
+    }
+    h1 {
+        color: white;
+    }
+    
+    .card {
+        position: relative;
+        background-color:#352f2ff5;
+        padding: 15px;
+        padding-right: 30px;
+        margin-top: 20px;
+        height:500px;
+        width: 60%;
+        font-size: 16px;
+        text-align: justify;
+        font-family: sans-serif;
+        margin-left: 20%;
+        color: white;
+        margin-bottom: 8%;
+        border-radius: 10px;
+      }
+      .card:hover{
+        transition: 2s;
+        background-color: #221e1e;
+        
+      }
+      /* Fake image */
+      .fakeimg {
+        position: absolute;
+        margin-top:30px;
+        width:40%;
+        height:350px;
+        padding: 20px;    
+        display: inline; 
+        /* background-color: brown; */
+      }
+    
+      .fakeimg img{
+        border-radius: 1.5px;
+          object-fit:cover;
+          box-shadow: 0px 0px 5px 5px grey;
+           /* margin-left: -10px; */
+          /* border: solid rgb(175, 164, 164) 2px; */
+    
+           
+      }
+      .fakeimg img:hover{
+        transform: scale(1.01);
+        border-color: #cfdbe4;
+    
+      } 
+      /* Add a card effect for articles */
+      
+    
+       .text1{
+         position: absolute;
+         margin-top:15px;
+         margin-left:45%;
+         padding:20px;
+         padding-left: 20px;
+         /* padding-right:20px; */
+         width:48%;
+         height:75%;
+         /* background-color: blue; */
+         float: right;
+        /* margin-top: -5px; */
+        color: #ffffff;
+        /* padding-right:5px; */
+      }
+    
+      .banner{
+        float: left;
+        margin-left: 40%;
+        /* background-color: violet; */
+        width: 400px;
+        height: 400px;
+        padding: 5px;
+        color: white;
+        font-family: sans-serif;
+        /* background-color: rgba(255, 255, 255, .15);    */
+        background-color: rgba(60, 61, 60, 0.15);
+        backdrop-filter: blur(0.5px);
+    }
+    
+    .eventname{
+        color: white;
+        font-weight: 600;
+        font-size: 42px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+       .bandate, .location{
+           /* font-weight: 700; */
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+       }
+    
+    .btn:hover{
+        box-shadow: 0 0 3px 2px yellow;
+    }
+    .past{
+        background-color: yellowgreen;
+        height:200px;
+    
+    }
+    
+    .popcontainer2 
+    {
+      position:fixed;
+      margin-left:0%;
+      border-radius: 10px;
+      background-color:rgb(128,128,128,0.5);
+      /* display: inline-block; */
+      width: 100%;
+      height:100%;
+      top:0%;
+      /* bottom: 2%; */
+      display: none;
+    /* font-family: SeoulNamsan CEB;;
+    font-size: 16px; */
+    /* background: rgb(255, 255, 255); Fallback color */
+    
+    
+    }
+    .popupreg{
+      position:relative;
+      /* display:inline-block ; */
+      /* border:black solid 1px; */
+      margin-top: 18%;
+      margin-left:auto;
+      margin-right: auto;
+      border-radius: 5px;
+      font-family: SeoulNamsan CEB;;
+      font-size: 17px;
+      font-weight: 200;
+      width: 450px;
+      height:150px;
+      padding-top: 25px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      vertical-align: middle;
+      /* display: block; */
+      /* visibility: hidden; */
+      /* background: rgb(255, 255, 255); Fallback color */
+      background-color: white;
+      box-shadow: 0 0 5px 1px grey;
+    }
+    /* .popvisible{
+      display: block;
+    } */
+    .popupreg button
+    {
+      background-color: rgb(112, 228, 248);
+      width:80px;
+      height:30px;
+      border: none;
+      color: white;
+      font-size: 18px;
+      font-family: SeoulNamsan CEB;
+      font-weight: bold;
+      border-radius: 2px;
+      text-align: center;
+      margin-top: 20px;
+      
+      /* box-shadow: 0 0 5px 1px rgb(162, 232, 245); */
+    
+    }
+    .popupreg button:hover
+    {
+      box-shadow: 0 0 5px 5px rgb(162, 232, 245);
+    }

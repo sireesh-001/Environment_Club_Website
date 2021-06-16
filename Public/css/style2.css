@@ -1,0 +1,886 @@
+html,body{
+  
+  margin:0;
+  padding: 0;
+  height:100%;
+  /* width:100%; */
+  top:0;
+  background-color: #352F2F;
+  font-family: SeoulNamsan CEB;
+  /* overflow-x:auto;
+  overflow-y:auto; */
+   
+}
+.ovcontainer
+  {
+    position:relative;
+    margin:0;
+    padding:0%;
+    top:0;
+    /* width:100%; */
+    
+  }
+
+.header{
+    /* Rectangle 1 */
+    
+    width: 100%;
+    height: 93px;
+    margin:0;
+    background: rgba(26, 14, 14, 0.945);
+    font-family:SeoulNamsan CEB;
+    cursor: default;
+    z-index: 3;
+    
+}
+.sticky {
+  
+  position: fixed;
+  background: rgba(17, 10, 10, 0.945);
+    z-index: 3;
+  top: 0;
+  left:0;
+  /* width: 100%; */
+  
+}
+.logo
+    {
+    position: absolute;
+    width: 140px;
+    height: 93px;
+    left: -9px;
+    top: -3px;
+    filter: drop-shadow(0px 4px 4px rgba(42, 102, 14, 0.5));
+    cursor:default;
+    z-index: inherit;
+    }
+.header_h1{
+  
+    position:absolute;
+    width: 206px;
+    height: 48px;
+    left:112px;
+    top: 47px;
+    top: -3px;
+    cursor:default;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FCF3F3;
+    z-index: inherit;
+
+
+}
+.header_h2
+{
+    /* margin-top: -5px; */
+    position: absolute;
+    margin-left: 50%;
+    margin-right:auto;
+    top: 27px;
+
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: bottom;
+    z-index: inherit;
+    
+  
+}
+.topnav
+{
+  overflow: hidden;
+}
+.topnav a
+{
+    float: left;
+    color: #FCF3F3;
+  text-align: center;
+  vertical-align: text-bottom;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+    background-color: #3b3b3b65;
+    color: rgb(218, 214, 214);
+    text-rendering: inherit;
+    
+  }
+
+
+  /* .topnav a.active {
+    background-color: #352F2F;
+    color: white;
+  } */
+.img_header
+{
+  position: relative;
+  margin-bottom: 5%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 835px;
+    height: 114px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 80px;
+    color: #FFFFFF;
+  }
+
+.frame2
+{
+  position: relative;
+  margin-top: 30px;
+  margin-left:0;
+  margin-right: 0;
+    /* margin-bottom: 5px; */
+  width:100%;
+  height: 500px;
+   
+}
+
+.aboutus
+{
+  position:relative;
+  float:left;
+  width: 670px;
+  height: 455px;
+  left: 2%;
+  margin-right:1%; 
+  border-radius: 2px;
+  background: #1B1818;
+  margin-left:2%;
+/* margin-bottom: 2%; */
+}
+/* About Us */
+
+.abt
+{
+position: absolute;
+width: 140px;
+padding: auto;
+height: 37.63px;
+left: 278.95px;
+top: 74.35px;
+
+font-family: SeoulNamsan CEB;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+text-decoration-line: underline;
+color: #F8ECEC;
+}
+
+.us
+{position: absolute;
+    height: 234px;
+    width: 575px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left:6%;
+    margin-right:3%;
+    color:#A7A0A0;
+
+    top: 150px;
+    border-radius: nullpx;
+    font-family: SeoulNamsan CEB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing:0pt;
+    text-align: justify;
+    
+}
+
+.videof
+{
+   
+    display:inline-block;
+    position: relative;
+    width: 670px;
+    height: 455px;
+    margin-left: 4%;
+    margin-right: 2%;
+    /* margin-bottom: 2%; */
+    border-radius: 2px;
+    background: #1B1818;
+} 
+
+.frame3
+{   position: relative;
+    width:100%;
+    height:100%;
+    /* border-style: groove; */
+    border-color: #A7A0A0;
+    background-color: #181111;
+    /* margin-bottom: 10px; */
+    margin-top: -5px;
+
+}
+
+.upcoming
+{
+position: relative; 
+width:295px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+
+font-family: SeoulNamsan CEB;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F8ECEC;
+}
+
+.box
+{
+    position:relative;
+    /* border-style:double;
+    border-color:  #A7A0A0;
+    border-width: 3pt; */
+    width: 330px;
+    height: 280px;
+    float:left;
+    margin-left:8%;
+    /*margin: 25px 70px; */
+    margin-bottom: 10%;
+}
+.box:hover{
+    box-shadow: 0 0 8px 4px grey;
+    transform: scale(1.05);
+    
+}
+
+.box img{
+  filter: brightness(140%) ;
+}
+.eventdes
+{
+  /* background-color: rgb(15, 9, 9); */
+  /* background: #1B1818; */
+  background-color: #352F2F;
+  /* background-color:#163f27;  */
+  /* background-color:#337511 ; */
+  color:white ;
+  width:245px;
+  height:130px;
+  display:inline-block;
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  right :4%;
+  padding: 10px 20px;
+  border-radius: 3px;
+  /* border-style: solid ;
+  border-width: 5px;; */
+  /* border-color:#163f27; */
+  font-size: 25px;
+  text-align: center;
+  font-family: SeoulNamsan CEB;
+  font-weight:600;
+}
+
+.vl{
+  border-left: 1px solid rgb(228, 221, 221);
+  margin-top: 10px;
+  position: absolute;
+  height: 40px;
+  display: inline-flex;
+  
+}
+
+button:hover{
+  box-shadow: 0 0 8px 4px grey;
+}
+
+hr{
+    border:1px solid #615757;
+    left:0%;
+    right:0%;
+    margin-bottom: 3%;
+    align-self: center;
+}
+
+.frame4
+{
+  position: relative;
+    width:100%;
+    top:0;
+    /* height:100%; */
+    left: 0px;
+    background-color: #181111;
+    /* margin-bottom: 5%; */
+    
+}
+
+table {
+  border-collapse:separate;
+  border-color:  #615757;
+  border-spacing: 30px 30px;
+  margin-bottom: 5%;
+  
+}
+ a{
+  color:rgb(20, 126, 20);
+}
+tr:hover
+{
+
+  box-shadow: 0 0 4px 2px grey;
+  transform: scale(1.05);
+  border-radius: 15px;
+}
+
+.blog
+{
+    position: relative; 
+    width:190px;
+    height: 100px;
+    /* margin-left: auto; */
+    margin-right: auto;
+    left:598px;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+     color: #F8ECEC;
+}
+.blogtxtbox
+{
+  position: relative;
+width: 600px;
+height: 300px;
+background-color: rgba(227, 216, 216, 0.09);
+border-radius: 53px;
+
+color:#A7A0A0;
+text-align:justify;
+vertical-align: top;
+font-family: SeoulNamsan CEB;
+font-size: 20px;
+padding-left: 90px;
+padding-right: 90px;
+padding-bottom: 30px;
+
+}
+.blogtxt
+{
+  font-style:oblique;
+  color:#F8ECEC;
+  text-align: center;
+  font-size: 28px;
+
+}
+.blogdate
+{
+  width: 50%; 
+   text-align: center; 
+   border-bottom: 1px solid #A7A0A0; 
+   
+   line-height: 0.1em;
+   margin-left: auto;
+   margin-right:auto;
+   color:black;
+   font-weight: bold;
+}
+
+.blogdate span { 
+  background: #A7A0A0;
+  padding:0 10px; 
+}
+.blogp
+{
+  height:250px;
+  width:250px;  
+  border-radius:50%;
+}
+
+
+  
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left:10%;
+    margin-right:5%;
+  
+    
+  }
+  .dotss
+  {
+    position: relative;
+    margin-bottom: 3%;
+    height: 30px;
+  }
+.dot, .dot:before, .dot:after
+ {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:#F8ECEC;
+  }
+.dot 
+{
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.dot:before, .dot:after 
+{
+  content: " ";
+}
+
+.dot:before
+{
+  right: 25px;
+  transition: right .3s ease-out;
+}
+
+.dot:after 
+{
+  left: 25px;
+  transition: left .3s ease-out;
+}
+
+.dots:hover .dot:before
+ {
+  right: -25px;
+}
+
+.dots:hover .dot:after 
+{
+  left: -25px;
+}
+
+.frame6
+{ 
+       
+  position: relative;
+  margin-top:5%;
+  padding-top: 5px;;
+  left: 0px;
+  /* border-style: groove; */
+  /* margin-bottom: 5%; */
+}
+
+.gallery
+{
+  position: static; 
+  width:190px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  left:auto;
+  right: auto;
+  padding-left: 65px;
+ 
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  
+  background-color:  #181111;
+  border-radius: 35px;
+   color: #F8ECEC;
+}
+.gallerybox
+{
+  position: relative;
+  width: 90%;
+  margin-left: 8%;
+  margin-right: auto;
+  top: 20px;
+  height:800px;
+  margin-bottom: 7%; 
+  background-color: #352F2F;
+  
+  /* font-family: SeoulNamsan CEB;
+  font-size: 25px; */
+  
+  
+}
+
+/* .piccontainer
+{ position: absolute;
+  margin-left: 40px; 
+  margin-top:20px;
+  border-radius: 10px;
+  /* margin-bottom: 5px; */
+
+.picbox{
+    box-shadow: 0 0 4px 4px rgb(37, 36, 36);
+   width: 20%; 
+    border-radius: 15px;
+    height:30%;
+    float:left;
+    margin: 20px 15px;
+   overflow: hidden;
+    /* padding:5px; */
+    
+}
+
+.picbox img{
+  height:100%;
+  width:400px;
+  object-fit:cover;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+.piccenter{
+    
+  display:table-cell;
+  margin-left:0px;
+  margin-right: 0px;
+  border-radius: 15px;
+}
+.picbox:hover{
+  box-shadow: 0 0 8px 4px grey;
+  transform: scale(1.15);
+  
+}
+.picbox:hover img{
+  transform: scale(1.5);
+}
+.frame5
+{      
+  position: relative;
+  /* margin-top:15px; */
+  width:100%;
+  /* padding-top: 10px; */
+  height:650px;
+  left: 0px;
+  
+  margin-bottom: 5%;
+
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  left: 0px;
+  top: 38px;
+  font-family: SeoulNamsan CEB;
+  font-size: 25px;
+  margin-bottom: 12%;
+  
+}
+.fotimage
+{
+background-blend-mode: screen;
+
+}
+
+.text-block {
+  position: absolute;
+  
+  display: inline-block;
+  bottom: 13%;
+  
+  left: 8%;
+  height: 250px;
+  width: 20%;
+  font-size: 18px;
+  border-radius: 41px;
+  font-family: SeoulNamsan CEB;
+  /* background-color:#FFFFFF; */
+  background: rgb(255, 255, 255); /* Fallback color */
+  background: rgba(255, 255, 255, 0.6); /* Black background with 0.5 opacity */
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify center;
+
+}
+
+.fform {
+  position: absolute;
+  float: right;
+  margin-left:50%;
+  border-radius: 41px;
+  /* display: inline-block; */
+  width: 650px;
+  height:100%;
+  top:8%;
+  bottom: 2%;
+font-family: SeoulNamsan CEB;;
+font-size: 16px;
+background: rgb(255, 255, 255); /* Fallback color */
+background: rgba(255, 255, 255, 0.6); /* Black background with 0.5 opacity */
+text-align: center;
+
+}
+
+.popcontainer
+{
+  position:absolute;
+  float: right;
+  margin-left:50%;
+  border-radius: 10px;
+  background-color:rgb(128,128,128,0.5);
+  /* display: inline-block; */
+  width: 650px;
+  height:100%;
+  top:8%;
+  bottom: 2%;
+  display: none;
+/* font-family: SeoulNamsan CEB;;
+font-size: 16px; */
+/* background: rgb(255, 255, 255); Fallback color */
+
+
+}
+.popup{
+  position:absolute;
+  display:inline-block ;
+  /* border:black solid 1px; */
+  margin-top: 18%;
+  margin-left:22.5%;
+  border-radius: 5px;
+  font-family: SeoulNamsan CEB;;
+  font-size: 17px;
+  font-weight: 200;
+  width:350px;
+  height:150px;
+  padding-top: 25px;
+  text-align: center;
+  vertical-align: middle;
+  /* visibility: hidden; */
+  /* background: rgb(255, 255, 255); Fallback color */
+  background-color: white;
+  box-shadow: 0 0 5px 1px grey;
+}
+.popvisible{
+  display: block;
+}
+.popup button
+{
+  background-color: rgb(112, 228, 248);
+  width:80px;
+  height:30px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-family: SeoulNamsan CEB;
+  font-weight: bold;
+  border-radius: 2px;
+  text-align: center;
+  margin-top: 20px;
+  
+  /* box-shadow: 0 0 5px 1px rgb(162, 232, 245); */
+
+}
+.popup button:hover
+{
+  box-shadow: 0 0 5px 5px rgb(162, 232, 245);
+}
+.formblock {
+  border-radius: 5px;
+    padding-left:20px;
+  /* size: 50%; */
+  text-align: left;
+  
+}
+#fname, #lname,#email,#feed_back
+{
+  display:inline-block;
+  position: relative;
+}
+
+label
+{ width: 90px;
+  text-align: right;
+  display: inline-table;
+  vertical-align: middle;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 5px;
+
+}
+#feed_back, #email
+{
+  width:450px;
+}
+
+
+input[type=text], input[type=email],select {
+width: 220px;
+height: 35px;
+box-shadow:0 0 10px 0 black ;
+font-size: 15px;
+padding: 12px 20px;
+margin: 2px 0;
+display: block;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.eqiline {
+
+height:100px;
+}
+
+#feed_back, select {
+  /* width: 265px; */
+  display: inline-block;
+  box-shadow:0 0 10px 0 black ;
+  height:120px;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 2px 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit],#myButton {
+  width: 100px;
+  background-color: #0d1a0d;
+  color: white;
+  padding: 10px 10px;
+  /* margin: 4px 0; */
+  margin-top: -10%;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left:40%
+}
+
+input[type=submit]:hover {
+  background-color: #3e413f;
+}
+#myButton:hover {
+  background-color: #3e413f;
+}
+input:invalid
+  {
+      box-shadow: 5px 0px 10px 1px black;
+  }
+
+input:invalid:focus
+  {
+      box-shadow: none;
+  }
+
+  input:focus
+{
+  background-color: #ddd;
+  outline:none;}
+
+.error{
+    color: red;
+    display: flex;
+    position: relative;
+    vertical-align: top;
+    margin-top: 0%;
+    margin-left: 0%;
+    /* display: none; */
+   
+}
+.inputfeild{
+   
+    /* position: absolute; */
+ display: inline-table;
+}
+
+.footer1{
+  width: 100%;
+  /* height: 290px; */
+  left: 0px;
+  /* top: 3821px; */
+  margin-top:-30px;
+  font-family:SeoulNamsan CEB;;
+  font-size: 25px;
+  background-color: #352f2ff5;
+  margin-bottom: 0%;
+  text-align: center;
+  color: #F8ECEC;
+ 
+}
+
+.links
+{
+  background-color: #352f2ff5;
+  height:100%
+}
+.links .fa {
+  color: #FFF;
+	background-color: #000;
+
+}
+.links .fa:hover {
+  color: #000;
+	background-color: #fff;
+  transform: scale(1.1,1.1);
+  transition-duration: 0.5s;
+  
+
+}
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width:25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 3px;
+  border-radius: 45%;
+  text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+    /* background:#e01373de; */
+    background: #f40083;;
+  color: white;
+}

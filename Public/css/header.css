@@ -1,0 +1,144 @@
+html,body{
+  
+    margin:0;
+    padding: 0;
+    height:100%;
+    /* width:100%; */
+    top:0;
+    background-color: #352F2F;
+    font-family: SeoulNamsan CEB;
+    /* overflow-x:auto;
+    overflow-y:auto; */
+     
+  }
+  .ovcontainer
+    {
+      position:relative;
+      margin:0;
+      padding:0%;
+      top:0;
+      /* width:100%; */
+      
+    }
+  
+  .header{
+      /* Rectangle 1 */
+      
+      width: 100%;
+      height: 93px;
+      margin:0;
+      background: rgba(26, 14, 14, 0.945);
+      font-family:SeoulNamsan CEB;
+      cursor: default;
+      z-index: 3;
+      
+  }
+  .sticky {
+    
+    position: fixed;
+    background: rgba(17, 10, 10, 0.945);
+      z-index: 3;
+    top: 0;
+    left:0;
+    /* width: 100%; */
+    
+  }
+  .logo
+      {
+      position: absolute;
+      width: 140px;
+      height: 93px;
+      left: -9px;
+      top: -3px;
+      filter: drop-shadow(0px 4px 4px rgba(42, 102, 14, 0.5));
+      cursor:default;
+      z-index: inherit;
+      }
+  .header_h1{
+    
+      position:absolute;
+      width: 206px;
+      height: 48px;
+      left:112px;
+      top: 47px;
+      top: -3px;
+      cursor:default;
+      font-family: SeoulNamsan CEB;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+  
+      color: #FCF3F3;
+      z-index: inherit;
+  
+  
+  }
+  .header_h2
+  {
+      /* margin-top: -5px; */
+      position: absolute;
+      margin-left: 50%;
+      margin-right:auto;
+      top: 27px;
+  
+      font-family: SeoulNamsan CEB;
+      font-style: normal;
+      font-weight:normal;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      vertical-align: bottom;
+      z-index: inherit;
+      
+    
+  }
+  .topnav
+  {
+    overflow: hidden;
+  }
+  .topnav a
+  {
+      float: left;
+      color: #FCF3F3;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .topnav a:hover {
+      background-color: rgba(59, 59, 59, 0.397);
+      color: rgb(218, 214, 214);
+      text-rendering: inherit;
+      
+    }
+  
+  
+    /* .topnav a.active {
+      background-color: #352F2F;
+      color: white;
+    } */
+  .img_header
+  {
+    position: relative;
+    margin-bottom: 5%;
+  }
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 835px;
+      height: 114px;
+  
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 80px;
+      color: #FFFFFF;
+    }
+  

@@ -1,0 +1,278 @@
+html,body{
+    margin:0px;
+    top:0px;
+    background-color:#181111;
+    font-family: SeoulNamsan CEB;
+     
+  }
+  
+  
+  .ovcontainer
+  {
+    position:relative;
+    width:100%;
+    background-color:#181111;
+    margin:0%;
+  }
+  
+  .header{
+    /* Rectangle 1 */
+    position: relative;
+    width: 100%;
+    height: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(26, 14, 14, 0.945);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family:SeoulNamsan CEB;
+    margin-bottom: 1px;
+}
+.logo
+    {
+    position: absolute;
+    width: 140px;
+    height: 93px;
+    left: -9px;
+    top: -3px;
+    filter: drop-shadow(0px 4px 4px rgba(42, 102, 14, 0.5));
+    }
+.header_h1{
+      color: wheat;
+    position:absolute;
+    width: 206px;
+    height: 48px;
+    left:112px;
+    top: 47px;
+    top: -3px;
+
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+
+    color:  wheat;
+
+
+}
+h1{
+   color: white;
+}
+.header_h2
+{
+    /* margin-top: -5px; */
+    position: absolute;
+    margin-left: 50%;
+    margin-right:auto;
+    top: 27px;
+
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: bottom;
+    
+  
+}
+.topnav
+{
+  overflow: hidden;
+}
+.topnav a
+{
+    float: left;
+    color: #FCF3F3;
+  text-align: center;
+  vertical-align: text-bottom;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+    background-color: rgba(59, 59, 59, 0.397);
+    color: rgb(218, 214, 214);
+    text-rendering: inherit;
+    
+  }
+
+  .img_header{
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 835px;
+    height: 114px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 80px;
+    color: #FFFFFF;
+  }
+
+.showbox{
+  position:fixed;
+  margin-left: 97%;
+  margin-right:0;
+  margin-top:5px;
+  background-color:#181111;
+  z-index: 1;
+}
+.show
+{
+  background-color: rgb(57, 177, 53);
+  /* position:fixed; */
+  position:absolute;
+  border-color: rgb(57, 177, 53);
+  margin-left: 97%;
+  margin-right:0;
+  margin-top:5px;
+  border-radius: 2px;
+  width:41px;
+  height:130px;
+  font-size: 29px;
+  text-align: center;
+  color: white;
+  padding:5px;
+  letter-spacing: 5px;
+  word-break: break-all;
+  word-wrap:break-word;
+  writing-mode:sideways-lr;
+  z-index:1;
+  
+
+}
+
+.showbox :hover
+{
+  
+    background-color:white;
+    color:rgb(57, 177, 53);
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0 2px 3px 4px rgb(57, 177, 53);
+}
+.hamicon{
+margin-right: 0;
+margin-left: auto;
+width:30px;
+height: 20px;
+margin-top: 0;
+border-color:white;
+cursor: pointer;
+margin-bottom: 9px;}
+
+.hamicon:hover
+{
+  border-style: solid;
+}
+
+.popupo{
+  position:fixed;
+  background-color: rgb(57, 177, 53);
+  margin-left: 83%;
+  margin-right:0;
+  margin-top:15px;
+  height :130px;
+  width:250px;
+  color:white;
+  text-align: center;
+  font-size: 25px;
+  border-color: rgb(57, 177, 53);
+  border-radius: 2px;
+  z-index: 1  ;
+  padding:5px;
+  padding-top:5px;
+  display: none;
+
+  /* font-family:SeoulNamsan CEB ; */
+}
+  .card {
+    position: relative;
+    background-color:#352f2ff5;
+    padding: 20px;
+    padding-right: 30px;
+    margin-top: 20px;
+    height:700px;
+    width: 80%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-left: 8%;
+    color: white;
+    margin-bottom: 8%;
+  }
+  .card:hover{
+    transition: 2s;
+    background-color: #221e1e;
+    
+  }
+  /* Fake image */
+  .fakeimg {
+    position: absolute;
+    margin-top:20px;
+    width:40%;
+    height:500px;
+    padding: 20px;    
+    display: inline; 
+    /* background-color: brown; */
+  }
+
+  .fakeimg img{
+    border-radius: 1.5px;
+      object-fit:cover;
+       /* margin-left: -10px; */
+      border: solid rgb(175, 164, 164) 2px;
+       
+  }
+  .fakeimg img:hover{
+    transform: scale(1.01);
+    border-color: #cfdbe4;
+
+  } 
+  /* Add a card effect for articles */
+  
+
+   .text1{
+     position: relative;
+     margin-top:20px;
+     margin-left:30px;
+     padding:20px;
+     /* padding-right:20px; */
+     width:52%;
+     height:75%;
+     /* background-color: blue; */
+     float: right;
+     overflow: auto;
+    /* margin-top: -5px; */
+    color: #ffffff;
+    /* padding-right:5px; */
+  }
+  .img_header{
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 835px;
+    height: 114px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 80px;
+    color: #FFFFFF;
+  }
