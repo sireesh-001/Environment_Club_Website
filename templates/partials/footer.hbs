@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/footerstyle.css" >
+        {{!-- <link rel="stylesheet" href="../css/style2.css" > --}}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+
+<body>
+    <div class="frame5" id="contactus">
+                
+        <div class="footer">
+            <div class="fotimage"> <img src="images/ft1.jpg" width="100%" height="462px"></div>
+            <div class="text-block">
+                <h4 style="text-align: center;">CONTACT US</h4>
+                <p style="margin-left: 15px;">
+                    <i class="fa fa-phone" style="margin-top: 0em; margin-bottom: 0em"></i>:+91-9273297393<br>
+                    <i class="fa fa-phone"></i>:+91-7395994934<br>
+                    <i class="fa fa-envelope"></i><a href="mailto:env.club@bmu.edu.in" style="color:blue">env.club@bmu.edu.in</a>
+                </p>
+              </div>
+              
+            
+            <div class="fform">
+               
+                
+                <h3> Feedback / Query </h3>
+                <!-- <p>Enter your details:</p> -->
+                
+                <div class="formblock">
+                    <form id="myform" name= " myform" method ="POST" action="/footer" onsubmit=" " target="_self">
+                        <label for="fname , lname">Name:</label>
+                        <div class="inputfeild">  <input type="text" id="f_name" name="fname" placeholder="First Name" required >
+                            <span class="error"><div id="f_name_error"></div></span></div>
+                          
+                        <div class="inputfeild">  <input type="text" id="l_name" name="lname" placeholder="Last Name" required >
+                        <span class="error"><div id="l_name_error"></div></span></div><br><br>
+        
+                        <label for="Email">E-mail Id:</label>
+                        <div class="inputfeild">
+                        <input type="email" id="email" name="Email"placeholder="Enter your Email" required>
+                        <span class="error"><div id="email_error"></div></span></div><br><br>
+        
+                    
+                        
+                        <label  class="eqiline" for="Feedback">Subject:</label>
+                        <div class="inputfeild">
+                        <textarea rows="6" max="200" id="feed_back" name="Feedback" placeholder="Enter you Feedback or Query here.." ></textarea>
+                        <span class="error"><div id="feed_back_error"></div></span></div>
+                        <br>
+                        <button id="myButton" type="button"  >Submit</button>
+                        {{!-- <input type="submit" value="Submit"> --}}
+                        
+                  </form>
+                  
+                </div>
+            </div>
+            <div class="popcontainer" id="pop">
+                        
+                <div class="popup">
+                    <p> Thank you for your feedback/query.<br>
+                        We'll get back to you soon!!. </p>
+                    
+                        <button id="ok">OK</button>
+                </div> 
+            </div>
+
+        </div>
+                
+            <!-- <div class="text"><h1>“The Earth is what we all have in common.”</h1></div> -->
+            <div class="footer1">
+                <hr>
+                <p >Connect with us:</p>
+                <div class="links">
+                    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/environmentclub_bmu/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://in.linkedin.com/company/environment-club-bmu" target="_blank" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+            
+    </div>
+    </body>
+    <script src="../js/scripthomepage.js">
+
+    </script> 
+    </html>

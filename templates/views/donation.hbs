@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style10.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    
+
+
+
+    </script>
+</head>
+<body>
+    <!-- header /navigationn bar -->
+ {{>Navigationbar}}
+    <div class="ovcontainer">
+        
+            
+     
+        <div class="img_header"> 
+            <img src="images/homeded.jpg" height="450px" width="100%">
+            <div class="centered">
+                <h1>“Peaceful environment For All.”</h1>
+            </div>
+        </div> 
+    
+            <br>
+            <p style="color:white ;font-size:32px; margin-left:34%">Take a Step towards nature and let's Donate</p>
+            <div class="afform">
+                <h2 style="color: white;margin-left: 36%;"><br>Donation Details<br></h2>
+                <!-- <p>Enter your details:</p> --></div>
+                <br>           
+                <div class="container">
+                    <form id="myform1" name="myform1" method ="POST" action="/donation"   >
+    
+                        <label for="firstname, lastname">Name:</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                        <input type="text" id="lastname" name="lastname" placeholder="Last Name"required ><br><br>
+
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="mail"placeholder="Enter your Email" required><br><br>
+
+                        <label for="Inspiration">Inspiration: </label>
+                        <input type="text" id="Inspiration" name="Inspiration" placeholder="Inspiration for Donation"><br>
+
+                            <br>
+                        <h3 style="text-align: center; font-size:25px">Payment Details</h3>
+                        
+                        <h4 style="text-align: left;font-weight: bolder;font-size:20px">Select your payment option: </h4>
+                        <input type="radio" name="checkbox" id="chk" onclick="showhide()" required>
+                        <label for="checkbox" id="chkupi"><pre>UPI Payment</pre></label>
+
+                        <input type="radio" name="checkbox" id="bnk" onclick="showhide()" required>
+                        <label for="checkbox" id="bnkdebit"><pre>Debit Card</pre></label>
+                        <!-- <h4>If your payment mode is UPI please complete your payment on following UPI Id:<h3><pre>8737228389@ybl</pre></h3></h4> -->
+                        <br>
+
+                        <label for="name" id="Account_no"><pre>Name on Card:</pre></label>
+                        <input type="text" id="a" name="name" placeholder="Enter Name on card.." ><br>
+
+                        <label for="cardno" id="card_no"><pre>Card Number:</pre></label>
+                        <input type="payment" id="b" name=" cardnumber" placeholder=".... .... .... ...." ><br>
+
+                        <div class="inline-block">
+                            <label for="exdate" class="labels" id="Expires"><pre>Expires:</pre></label>
+                            <input style="width: 130px;"class="labels"type="text" id="c" name="exdate" placeholder="MM/YY" >
+
+                    
+                            <label for="cvv" id="CVV" class="labels"><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVV:</pre></label>
+                        <input style="width: 130px;"class="labels" type="password" id="d" name="cvv" maxlength="3" minlength="3" placeholder="CVV" >
+
+                        </div>
+
+                    
+                        
+                        <label class="labels" id="pil"for="contactno"><pre>Phone Number:</pre></label>
+                        <input type="tel" id="pii" name="contactno" minlength="10" placeholder="Enter your Phone No." ><br><br>
+
+                        <label class="labels" for="amount"><pre>Amount:</pre></label>
+                        <input type="payment" id="pi" name="amount" placeholder="Enter your Amount.." required><br><br>
+                        <br><br>
+
+                        <div id="upii" class="upii" style=" width:550px">
+
+                            <input  id="gpayimg" name="upi" type="radio" onclick= "Showgpay()" value="GPay" >
+                            <label  for="upi" id="chkgp">Google Pay</label>
+
+                            <input  id="ppayimg" name="upi" type="radio" onclick= "Showgpay()" value="PhonePay" >
+                            <label   for="upi" id="chkpp">PhonePe</label>
+
+                            {{!-- <input id="gpay_box" name="upi" type="radio" onclick="Showgpay()" value="Gpay" required>
+                            <label for="upi" id="chkgp"><pre>Google Pay</pre></label>
+
+                            <input id="phone_pay" name="upi" type="radio" onclick="Showgpay()" value="Phone Pay"required>
+                            <label for="upi" id="chkpp"><pre>Phone Pay</pre></label> --}}
+
+                            <div><img id="Gpay" style="height: 400px;width: 410px;display: none;margin-left: 38%;margin-top: 20px;margin-bottom: 20px;" src="images/gpayqr.jpg"></div>
+                            
+                            <div><img id="Phonepay" style="height: 400px;width: 410px;display: none;margin-left: 38%;margin-top: 20px;margin-bottom: 20px;"  src="images/phonepeqr.png"></div>
+                        </div>
+
+                        <br><br>
+
+                        <label id="Transaction"for="transcid"><pre>Transaction Id:</pre></label>
+                        <input type="payment" id="p" name="transacid" placeholder="XXXXXXXXXXXX" ><br>
+
+                        <!-- Form validation by java script -->
+
+                        
+                        <br><br>
+                        <input type="submit" id="submitbtn "value="Submit">
+                        
+                  </form>
+
+
+                  
+                </div>
+                <br><br><br><br>
+                </div>
+</body>
+
+<script>
+
+            function showhide(){
+            const checkbox = document.getElementById('chk');
+            const a = document.getElementById('Transaction');
+            const b = document.getElementById('p');
+            const check_box = document.getElementById('bnk')
+            const c = document.getElementById('Account_no');
+            const d = document.getElementById('card_no');
+            const e = document.getElementById('Expires');
+            const x = document.getElementById('a');
+            const y = document.getElementById('b');
+            const z = document.getElementById('c');
+            const w = document.getElementById('d');
+            const cv = document.getElementById('CVV');
+            const s = document.getElementById('pil');
+            const sa = document.getElementById('pii');
+            const upii = document.getElementById('upii');
+            
+
+            if(checkbox.checked){
+                a.style.display="inline-block";
+                b.style.display="inline-block";       
+                s.style.display="inline-block";
+                sa.style.display="inline-block";
+                upii.style.display="inline-block";
+                b.required= true;       
+                s.required;
+                sa.required= true;
+                document.getElementById("gpayimg").required=true;
+                 document.getElementById("ppayimg").required=true;
+                
+
+
+            }
+            else{
+                a.style.display="none";
+                b.style.display="none"; 
+                s.style.display="none";
+                sa.style.display="none";
+                upii.style.display="none";
+            }
+            if(check_box.checked){
+                c.style.display="inline-block";
+                d.style.display="inline-block";
+                e.style.display="inline-block";
+                x.style.display="inline-block";
+                y.style.display="inline-block"; 
+                z.style.display="inline-block";
+                w.style.display="inline-block";
+                cv.style.display="inline-block";
+
+
+                
+                x.required=true;
+                y.required=true;
+                z.required=true;
+                w.required=true;
+               
+                
+
+            }
+            else{
+                c.style.display="none";
+                d.style.display="none";
+                e.style.display="none"; 
+                x.style.display="none";
+                y.style.display="none"; 
+                z.style.display="none";
+                w.style.display="none";
+                cv.style.display="none";
+               
+            }
+
+
+        }
+
+
+
+
+        function Showgpay() 
+        {
+            const rd = document.getElementById("gpayimg");
+            
+            const ra = document.getElementById("ppayimg");
+
+            if(rd.checked && (ra.checked==false))
+            {
+                document.getElementById('Gpay').style.display='inline-block';
+            }
+            else
+            {
+                document.getElementById('Gpay').style.display='none';  
+            }
+
+            if(ra.checked && (rd.checked==false))
+            {
+                document.getElementById('Phonepay').style.display='inline-block';
+            }
+            else
+            {
+                document.getElementById('Phonepay').style.display='none'; 
+            }
+        
+        }
+
+        
+        
+</script>
+</html>

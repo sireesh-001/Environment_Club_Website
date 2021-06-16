@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/regstyle.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- header /navigationn bar -->
+ {{>Navigationbar}}
+    <div class="ovcontainer">
+        
+            
+     
+        <div class="img_header"> 
+            <img src="images/homeded.jpg" height="450px" width="100%">
+            <div class="centered" id="regf">
+                <h1>“Peaceful environment For All.”</h1>
+            </div>
+        </div> 
+    
+            <br>
+            <p style="color:white ;font-size:32px; margin-left:40%">Registeration Form</p>
+           
+                <br> 
+                <div class="container">
+                    <form id="myform1" name="myform1" method ="POST" action="/reg" target="_self" onsubmit=" " >
+                        
+                        <label for="event"><pre>Event Name:</pre></label>
+                        <input type="text" id="event" name="event"  required placeholder="Plantation Drive"><br><br>
+                        <label for="firstname,lastname">Name:</label>
+                        <input type="text" id="firstname" name="rfirstname" placeholder="First Name" required>
+                        <input type="text" id="lastname" name="rlastname" placeholder="Last Name" required><br><br>
+                        <label for="mail"><pre>Email:</pre></label>
+                        <input type="email" id="mail" name="rmail"placeholder="Enter your email"required><br><br>
+                        <label for="Contact"><pre>Contact Number:</pre></label>
+                        <input type="tel" id="contactno" name="Contact"placeholder="Enter your contact number"required><br><br>
+                        
+                        <label for="batch" id="batchbox">Batch:</label>
+                            <select id="batch" name="batch" required>
+                                <option value="" selected>--Select--</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                            </select>
+                        <br>
+                        <br>
+                        <label for="suggestions"><pre>Anything you want to tell us?    :</pre></label><br>
+                        <input type="textarea" id="suggestions" name="suggestions"placeholder="Any Suggestions for event"><br><br>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                        
+                    
+                        
+                  </form>
+                  
+                  </div>
+
+<br>
+                  <br>
+</div>
+</body>
+<script>
+    document.getElementById("event").value = "Plantation Drive";
+
+</script>
+</html>
