@@ -251,5 +251,8 @@ app.post("/reg",async (req,res)=>{
 //register-end
 
 
-app.listen(3000 , () => { 
-    console.log("server is listening to port "); });
+// app.listen(3000 , () => { 
+//     console.log("server is listening to port "); });
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
