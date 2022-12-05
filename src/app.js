@@ -97,16 +97,16 @@ app.post("/footer",async (req,res)=>{
             subject:'Environment Club-Your Feedback Matters',
             text: 'Thank you for your precious feedback we really appreciate your efforts.'
         }
-        transporter.sendMail(mailoptions,(error,info)=>{
-            if(error){
-                console.log(error);
-                res.send('error');
-            }
-            else{
-                console.log('Email Sent');
-                res.send('success');
-            }
-        })
+//         transporter.sendMail(mailoptions,(error,info)=>{
+//             if(error){
+//                 console.log(error);
+//                 res.send('error');
+//             }
+//             else{
+//                 console.log('Email Sent');
+//                 res.send('success');
+//             }
+//         })
 
         return res.redirect("/");
     }
@@ -162,16 +162,16 @@ app.post("/donation",async (req,res)=>{
             subject:'Environment Club',
             text: 'Thank you for your donation we really appreciate your efforts.'
         }
-        transporter.sendMail(mailoptions,(error,info)=>{
-            if(error){
-                console.log(error);
-                res.send('error');
-            }
-            else{
-                console.log('Email Sent');
-                res.send('success');
-            }
-        })
+//         transporter.sendMail(mailoptions,(error,info)=>{
+//             if(error){
+//                 console.log(error);
+//                 res.send('error');
+//             }
+//             else{
+//                 console.log('Email Sent');
+//                 res.send('success');
+//             }
+//         })
        res.render("donationsucc");
     }
     catch(e)
@@ -227,16 +227,16 @@ app.post("/reg",async (req,res)=>{
             subject:'Environment Club- Event Registeration',
             text: 'You have successfully registered for the event.Lokking forward for great participation.'
         }
-        transporter.sendMail(mailoptions,(error,info)=>{
-            if(error){
-                console.log(error);
-                res.send('error');
-            }
-            else{
-                console.log('Email Sent');
-                res.send('success');
-            }
-        })
+//         transporter.sendMail(mailoptions,(error,info)=>{
+//             if(error){
+//                 console.log(error);
+//                 res.send('error');
+//             }
+//             else{
+//                 console.log('Email Sent');
+//                 res.send('success');
+//             }
+//         })
             res.render("succesfulreg");
     }
     catch(e)
